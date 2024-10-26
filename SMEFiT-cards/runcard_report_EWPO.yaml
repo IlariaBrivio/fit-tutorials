@@ -38,17 +38,30 @@ coefficients_plots:
 #
 #  double_solution:  # List of op per fit with double solution
 #
-#
-#correlations:
-#   hide_dofs: Null # Null or list of op not be displayed
-#   thr_show: 0.1 # Min value to show, if Null show the full matrix
 
-#PCA:
-#  table: True # display the list of PC decomposition
-#  thr_show: 1.e-2
-#  #sv_min: 1.e-4
-#  plot: True
-#  fit_list: # or list of fits to include by name
+  scatter_plot:
+    figsize: [10,15] # figure size
+    x_min: -2 # x min value, you can specify different ranges with {type1: min1 ...}
+    x_max: 2 # x min value, you can specify different ranges with {type1: max1 ...}
+    lin_thr: .001 # linear threshold, in case of x_log, you can specify different ranges wit {type1: min1 ...}
+    x_log: False # use symlog scale on x axis ?
+
+correlations:
+    hide_dofs: Null # Null or list of op not be displayed
+    thr_show: Null # Min value to show, if Null show the full matrix
+
+
+PCA:
+  fit_list: [EWPO] # or list of fits to include by name
+  table: True # display the list of PC decomposition
+  thr_show: 1.e-5
+  plot: 
+    figsize: [15,15] # figure size
+    #sv_min: 1.e-4 # min singular value to display (upper plot)
+    #sv_max: 1.e+5 # max singular value to display (upper plot)
+    thr_show: 0.0 # min value of the principal component to display (main plot)
+    title: true # if True display the fit label as title
+  
 
 chi2_plots:
   table: True # bool, chi2 table
@@ -56,6 +69,8 @@ chi2_plots:
     figsize: [10,15]
   plot_distribution: #  chi2 distribution per replica
     figsize: [7,5]
+
+
 
 # fisher information options
 #fisher:
@@ -70,6 +85,7 @@ chi2_plots:
 #    summary_only: True # if True display only the fisher information per dataset group. If False will show the fine grained dataset per dataset
 #    figsize: [11, 15] # figure size
 #    title: true # if True display the fit label as title
+
 
 coeff_info:
   4H: [
@@ -257,3 +273,4 @@ data_info:
     [ LEP_Brw_2013, "https://arxiv.org" ],
     [ LEP_alphaEW, "https://arxiv.org" ],
   ]
+

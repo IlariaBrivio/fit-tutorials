@@ -28,7 +28,6 @@ bounds: Null
 
 n_samples: 20000
 
-
 # Datasets to include
 datasets:
 
@@ -56,3 +55,4 @@ coefficients:
   OpD: { 'min': -2, 'max': 2 }
 
 rot_to_fit_basis: null
+

@@ -53,6 +53,7 @@ coefficients:
 
   Oll: { 'min': -2, 'max': 2 }
   OpWB: { 'min': -2, 'max': 2 }
-  OpD: { 'min': -2, 'max': 2 }
+  #OpD: { 'min': -2, 'max': 2 }
 
 rot_to_fit_basis: null
+

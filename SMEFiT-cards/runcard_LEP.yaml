@@ -34,7 +34,7 @@ datasets:
 
   - LEP1_EWPOs_2006
   - LEP_Bhabha_2013
-  - LEP_Brw_2013
+ # - LEP_Brw_2013
   - LEP_alphaEW
   - LEP_eeWW_182GeV
   - LEP_eeWW_189GeV
@@ -65,3 +65,4 @@ coefficients:
   OWWW: {'min': -2, 'max': 2}
 
 rot_to_fit_basis: null
+
