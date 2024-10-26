@@ -37,18 +37,18 @@ datasets:
 coefficients:
 
   O3pq: { 'min': -2, 'max': 2 }
-  O3pQ3: { 'min': -2, 'max': 2 }
+    # O3pQ3: { 'min': -2, 'max': 2 }
   OpqMi: { 'min': -2, 'max': 2 }  # Non Warsaw
-  OpQM: { 'min': -2, 'max': 2 }  # Non Warsaw
+    #OpQM: { 'min': -2, 'max': 2 }  # Non Warsaw
   Opui: { 'min': -2, 'max': 2 }
   Opdi: { 'min': -2, 'max': 2 }
 
   Opl1: { 'min': -2, 'max': 2 }
   Opl2: { 'min': -2, 'max': 2 }
   Opl3: { 'min': -2, 'max': 2 }
-  O3pl1: { 'min': -2, 'max': 2 }
-  O3pl2: { 'min': -2, 'max': 2 }
-  O3pl3: { 'min': -2, 'max': 2 }
+    # O3pl1: { 'min': -2, 'max': 2 }
+    # O3pl2: { 'min': -2, 'max': 2 }
+    # O3pl3: { 'min': -2, 'max': 2 }
   Ope: { 'min': -2, 'max': 2 }
   Opmu: { 'min': -2, 'max': 2 }
   Opta: { 'min': -2, 'max': 2 }
