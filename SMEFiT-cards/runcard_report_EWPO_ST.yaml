@@ -40,10 +40,9 @@ coefficients_plots:
 #
 
   scatter_plot:
-    figsize: [10,15] # figure size
-    x_min: -2 # x min value, you can specify different ranges with {type1: min1 ...}
-    x_max: 2 # x min value, you can specify different ranges with {type1: max1 ...}
-    lin_thr: .001 # linear threshold, in case of x_log, you can specify different ranges wit {type1: min1 ...}
+    #figsize: [10,15] # figure size
+    x_min: 0.1 # x min value, you can specify different ranges with {type1: min1 ...}
+    x_max: 0.1 # x min value, you can specify different ranges with {type1: max1 ...}
     x_log: False # use symlog scale on x axis ?
 
 correlations:
