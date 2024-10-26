@@ -1,6 +1,6 @@
 # Input YAML configurations for SMEFiT code
 
-result_ID: EWPO
+result_ID: LEP_all
 
 # absolute path where results are stored
 result_path: ./results
@@ -62,6 +62,6 @@ coefficients:
   OpWB: { 'min': -2, 'max': 2 }
   OpD: { 'min': -2, 'max': 2 }
 
-  OW: {'min': -2, 'max': 2}
+  OWWW: {'min': -2, 'max': 2}
 
 rot_to_fit_basis: null
