@@ -40,8 +40,8 @@ coefficients_plots:
 #
 
   scatter_plot:
-    #figsize: [10,15] # figure size
-    x_min: 0.1 # x min value, you can specify different ranges with {type1: min1 ...}
+    figsize: [5,5] # figure size
+    x_min: -0.1 # x min value, you can specify different ranges with {type1: min1 ...}
     x_max: 0.1 # x min value, you can specify different ranges with {type1: max1 ...}
     x_log: False # use symlog scale on x axis ?
 
