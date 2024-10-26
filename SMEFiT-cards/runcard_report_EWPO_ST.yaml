@@ -51,18 +51,6 @@ correlations:
     thr_show: Null # Min value to show, if Null show the full matrix
 
 
-PCA:
-  fit_list: [EWPO] # or list of fits to include by name
-  table: True # display the list of PC decomposition
-  thr_show: 1.e-5
-  plot: 
-    figsize: [15,15] # figure size
-    #sv_min: 1.e-4 # min singular value to display (upper plot)
-    #sv_max: 1.e+5 # max singular value to display (upper plot)
-    thr_show: 0.0 # min value of the principal component to display (main plot)
-    title: true # if True display the fit label as title
-  
-
 chi2_plots:
   table: True # bool, chi2 table
   plot_experiment:  # chi2 plot per experiment
