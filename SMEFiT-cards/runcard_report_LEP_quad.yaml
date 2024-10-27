@@ -22,6 +22,16 @@ result_path: ./results
 
 summary: True
 
+
+nlive: 400
+lepsilon: 0.05  
+target evidence_unc: 0.5
+frac_remain: 0.01
+store_raw: False
+vectorized: False
+float64: False
+
+
 coefficients_plots:
 
   contours_2d:
