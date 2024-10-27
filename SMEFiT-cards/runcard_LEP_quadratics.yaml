@@ -1,6 +1,6 @@
 # Input YAML configurations for SMEFiT code
 
-result_ID: LEP_all
+result_ID: LEP_all_quad
 
 # absolute path where results are stored
 result_path: ./results
